@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="yocto" fetch="https://git.yoctoproject.org/git/"/>
+    <remote name="github" fetch="https://github.com/"/>
+
+    <project path="poky"
+     name="poky"
+     remote="yocto"
+     revision="master"/>
+
+    <project path="poky/meta-openembedded"
+     name="openembedded/meta-openembedded"
+     remote="github"
+     revision="master"/>
+
+    <project path="poky/meta-virtualization"
+     name="meta-virtualization"
+     remote="yocto"
+     revision="master"/>
+
+    <project path="poky/meta-measured"
+     name="flihp/meta-measured"
+     remote="github"
+     revision="master"/>
+
+    <project path="poky/yocto-docker"
+     name="3mdeb/yocto-docker"
+     remote="github"
+     revision="master"/>
+
+    <project path="poky/meta-pcengines"
+     name="pcengines/meta-pcengines"
+     remote="github"
+     revision="master"/>
+
+</manifest>
