@@ -1,4 +1,11 @@
+# WARNING
+
+This was WIP repo and is not currently developed. It is not expected to work
+correctly. If you have use-cases for such thing to be developed, please submit
+an issue or PR with description of your needs / fixes.
+
 # oe-manifest
+
 OpenEmbedded (Yocto) repo manifest
 
 ## Init repositories
